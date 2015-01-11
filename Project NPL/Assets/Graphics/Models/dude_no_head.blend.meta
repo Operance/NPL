@@ -1,0 +1,90 @@
+fileFormatVersion: 2
+guid: feca0b52e49d8a04599ff320a4f210b8
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: basic_male_basic_male
+    100002: basic_male_Eyelashes01
+    100004: basic_male_Low_Poly
+    100006: basic_male_Teeth_Base
+    100008: basic_male_tongue01
+    100010: //RootNode
+    100012: basic_male_Eyelashes0
+    400000: basic_male_basic_male
+    400002: basic_male_Eyelashes01
+    400004: basic_male_Low_Poly
+    400006: basic_male_Teeth_Base
+    400008: basic_male_tongue01
+    400010: //RootNode
+    400012: basic_male_Eyelashes0
+    2300000: basic_male_basic_male
+    2300002: basic_male_Eyelashes01
+    2300004: basic_male_Low_Poly
+    2300006: basic_male_Teeth_Base
+    2300008: basic_male_tongue01
+    2300010: basic_male_Eyelashes0
+    3300000: basic_male_basic_male
+    3300002: basic_male_Eyelashes01
+    3300004: basic_male_Low_Poly
+    3300006: basic_male_Teeth_Base
+    3300008: basic_male_tongue01
+    3300010: basic_male_Eyelashes0
+    4300000: basic_male_tongue01
+    4300002: basic_male_Teeth_Base
+    4300004: basic_male_Eyelashes01
+    4300006: basic_male_Low_Poly
+    4300008: basic_male_basic_male
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

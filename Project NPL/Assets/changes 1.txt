@@ -1,0 +1,28 @@
+FILES CHANGED
+IN 10-28-14
+=============
+What you need to do on your end:
+	-For the wallrun trigger on the player's left side, tick "Left" in the inspector
+
+	-Copy "CameraMount2" in Player, rename it "CameraMount3"
+	-Replace the "CameraBob" script on "CameraMount3" with "CameraLean.js"
+	-Delete the "MainCamera" in "CameraMount2"
+	-Child "CameraMount3" to "CameraMount2"
+
+	-Make sure to apply this all to the prefab
+=============
+Changes:
+	-Added headbob during wallrun
+	-Cut initial wallrun velocity in half
+	-Cut wallrun gravity by ~80%
+	-Upped zipline acceleration from 0.1 to 0.25
+	-Added Camera leaning while wallrunning
+=============
+Files updated:
+	-PlayerScript.js
+	-CameraBob.js
+	-WallrunTrigger.js
+	-Player.prefab
+=============
+Files added:
+	-CameraLean.js

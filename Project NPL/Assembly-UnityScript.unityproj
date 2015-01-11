@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C40BB383-7DFA-15D8-1610-B87BA38C3A28}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AIScript.js" />
+     <Compile Include="Assets\Scripts\AiJumpStall.js" />
+     <Compile Include="Assets\Scripts\AiRunner.js" />
+     <Compile Include="Assets\Scripts\AiWallrunTrigger.js" />
+     <Compile Include="Assets\Scripts\AutojumpScript.js" />
+     <Compile Include="Assets\Scripts\BoxGrab.js" />
+     <Compile Include="Assets\Scripts\ButtonGeneric.js" />
+     <Compile Include="Assets\Scripts\ButtonLoadLevel.js" />
+     <Compile Include="Assets\Scripts\CameraBob.js" />
+     <Compile Include="Assets\Scripts\CameraLean.js" />
+     <Compile Include="Assets\Scripts\CameraMouseLook.js" />
+     <Compile Include="Assets\Scripts\CameraTilt.js" />
+     <Compile Include="Assets\Scripts\ChangeGraphics.js" />
+     <Compile Include="Assets\Scripts\ChangeGraphicsToCamera.js" />
+     <Compile Include="Assets\Scripts\CheckPoint.js" />
+     <Compile Include="Assets\Scripts\FPSCounter.js" />
+     <Compile Include="Assets\Scripts\FinalTime.js" />
+     <Compile Include="Assets\Scripts\HipCheckScript.js" />
+     <Compile Include="Assets\Scripts\Impact.js" />
+     <Compile Include="Assets\Scripts\LTL.js" />
+     <Compile Include="Assets\Scripts\MainMenuScript.js" />
+     <Compile Include="Assets\Scripts\MenuCamera.js" />
+     <Compile Include="Assets\Scripts\MenuRotate.js" />
+     <Compile Include="Assets\Scripts\PlayerScript.js" />
+     <Compile Include="Assets\Scripts\PushCube.js" />
+     <Compile Include="Assets\Scripts\Quit.js" />
+     <Compile Include="Assets\Scripts\RunSound.js" />
+     <Compile Include="Assets\Scripts\Screenshot.js" />
+     <Compile Include="Assets\Scripts\SearchPlayerScript.js" />
+     <Compile Include="Assets\Scripts\SearchTeleportGround.js" />
+     <Compile Include="Assets\Scripts\SearchTimerScript.js" />
+     <Compile Include="Assets\Scripts\SecretButtonGeneric.js" />
+     <Compile Include="Assets\Scripts\SetCheckPoint.js" />
+     <Compile Include="Assets\Scripts\Slide.js" />
+     <Compile Include="Assets\Scripts\SprintScript.js" />
+     <Compile Include="Assets\Scripts\SwoopIN.js" />
+     <Compile Include="Assets\Scripts\TeleportGround.js" />
+     <Compile Include="Assets\Scripts\TimeTrial.js" />
+     <Compile Include="Assets\Scripts\TimerScript.js" />
+     <Compile Include="Assets\Scripts\WallClimb.js" />
+     <Compile Include="Assets\Scripts\WallrunTrigger.js" />
+     <Compile Include="Assets\Scripts\WindAudioPitch.js" />
+     <Compile Include="Assets\Scripts\Zipline.js" />
+     <Compile Include="Assets\Scripts\ZiplinePoints.js" />
+     <Compile Include="Assets\Scripts\asdf.js" />
+     <Compile Include="Assets\Scripts\delete.js" />
+     <Compile Include="Assets\Scripts\disablemouselook.js" />
+     <Compile Include="Assets\Scripts\dropdownmenu.js" />
+     <Compile Include="Assets\Scripts\exit.js" />
+     <Compile Include="Assets\Scripts\gobackbutton.js" />
+     <Compile Include="Assets\Scripts\liftoff.js" />
+     <Compile Include="Assets\Scripts\loaddefaultlevel.js" />
+     <Compile Include="Assets\Scripts\loadhighscore.js" />
+     <Compile Include="Assets\Scripts\move.js" />
+     <Compile Include="Assets\Scripts\plat.js" />
+     <Compile Include="Assets\Scripts\savetimescore.js" />
+     <Compile Include="Assets\Scripts\script.js" />
+     <Compile Include="Assets\Scripts\showcursor.js" />
+     <Compile Include="Assets\Scripts\splashscreen.js" />
+     <Compile Include="Assets\Scripts\startsearch.js" />
+     <Compile Include="Assets\Scripts\starttimet.js" />
+     <Compile Include="Assets\Scripts\timetrialmenu.js" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\changes 1.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\changes.txt" />
+     <None Include="Assets\Graphics\Models\AfricanBrush\Materials\NewComputeShader.compute" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{3B5CEFDD-C370-3439-1A79-B0A253CB0AA6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{F162B777-5A46-BDB1-6985-2B3B30B75A7A}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

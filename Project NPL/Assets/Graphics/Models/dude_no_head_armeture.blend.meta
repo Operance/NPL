@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 579ab11c0f013c84d811b55e6dab7ae7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: basic_male
+    100002: basic_male_basic_male
+    100004: chest
+    100006: clavicle_L
+    100008: clavicle_R
+    100010: //RootNode
+    100012: f_index_01_L
+    100014: f_index_01_R
+    100016: f_ring_01_L
+    100018: f_ring_01_R
+    100020: foot_L
+    100022: foot_R
+    100024: forearm_L
+    100026: forearm_R
+    100028: hand_L
+    100030: hand_R
+    100032: head
+    100034: hips
+    100036: neck
+    100038: shin_L
+    100040: shin_R
+    100042: spine
+    100044: thigh_L
+    100046: thigh_R
+    100048: thumb_02_L
+    100050: thumb_02_R
+    100052: thumb_03_L
+    100054: thumb_03_R
+    100056: toe_L
+    100058: toe_R
+    100060: upper_arm_L
+    100062: upper_arm_R
+    400000: basic_male
+    400002: basic_male_basic_male
+    400004: chest
+    400006: clavicle_L
+    400008: clavicle_R
+    400010: //RootNode
+    400012: f_index_01_L
+    400014: f_index_01_R
+    400016: f_ring_01_L
+    400018: f_ring_01_R
+    400020: foot_L
+    400022: foot_R
+    400024: forearm_L
+    400026: forearm_R
+    400028: hand_L
+    400030: hand_R
+    400032: head
+    400034: hips
+    400036: neck
+    400038: shin_L
+    400040: shin_R
+    400042: spine
+    400044: thigh_L
+    400046: thigh_R
+    400048: thumb_02_L
+    400050: thumb_02_R
+    400052: thumb_03_L
+    400054: thumb_03_R
+    400056: toe_L
+    400058: toe_R
+    400060: upper_arm_L
+    400062: upper_arm_R
+    4300000: basic_male_basic_male
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: basic_male_basic_male
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
