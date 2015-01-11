@@ -48,6 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CamMouseLook.cs" />
      <Compile Include="Assets\Scripts\splashscreen.cs" />
+     <Compile Include="Assets\WorldBuilder\Scripts\Heightmapbuilder.cs" />
+     <Compile Include="Assets\WorldBuilder\Scripts\Helpers\Threading.cs" />
+     <Compile Include="Assets\WorldBuilder\Scripts\TerrainFoliage.cs" />
+     <Compile Include="Assets\WorldBuilder\Scripts\TerrainGeneration.cs" />
+     <Compile Include="Assets\WorldBuilder\Scripts\TerrainTexturing.cs" />
+     <None Include="Assets\Panzer_II_Ausf_F\Shaders\Panzer Tracks.shader" />
+     <None Include="Assets\Panzer_II_Ausf_F\readme.txt" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
@@ -62,6 +69,9 @@
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="CoherentNoise">
+ <HintPath>C:/Users/stbro_000/Documents/GitHub/NPL/Project NPL/Assets/WorldBuilder/Scripts/Helpers/CoherentNoise.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

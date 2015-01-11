@@ -108,6 +108,8 @@
      <Compile Include="Assets\Scripts\startsearch.js" />
      <Compile Include="Assets\Scripts\starttimet.js" />
      <Compile Include="Assets\Scripts\timetrialmenu.js" />
+     <None Include="Assets\Panzer_II_Ausf_F\Shaders\Panzer Tracks.shader" />
+     <None Include="Assets\Panzer_II_Ausf_F\readme.txt" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
@@ -125,6 +127,9 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="CoherentNoise">
+ <HintPath>C:/Users/stbro_000/Documents/GitHub/NPL/Project NPL/Assets/WorldBuilder/Scripts/Helpers/CoherentNoise.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
